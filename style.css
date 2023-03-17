@@ -7,7 +7,7 @@
 .container {
     margin: 0 auto;
     width: 1000px;
-    background-color: aqua;
+    background-color:hsl(188.2deg 77.78% 40.59%);
     min-height: 100px;
 
 }
@@ -16,4 +16,36 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    min-height: 50px;
+}
+
+ul.flex {
+    list-style: none
+}
+
+main{
+background-color:purple;
+min-height: 50px;
+}
+.left {
+    min-height: 50px;
+}
+.stripe{
+    min-height: 50px;
+    background-color:#17a2b8;
+}
+
+.right {
+    background-color: yellow;
+    min-height: 50px;
+}
+
+footer {
+    background-color: salmon;
+    min-height: 50px;
 }

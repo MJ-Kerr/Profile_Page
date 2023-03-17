@@ -11,16 +11,39 @@
 
 <body>
     <div class="container">
-        <header></header>
-        <main></main>
-        <div class="left">
-            <div class="card"></div>
-            <div class="education"></div>
-        </div>
-        <div class="right">
-            <div class="requests"></div>
-            <div class="connection"></div>
-        </div>
+        <header class="flex">
+            <ul class="flex">
+                <li>Profile</li>
+                <li>Home</li>
+                <li>My Profile</li>
+                <li>Find Connections</li>
+            </ul>
+            <button>Sign Out</button>
+        </header>
+        <main>
+            <div class="left">
+                <div class="card">
+                    <div>
+                        <div class="stripe"></div>
+                        <img src="./content.src/icons/user-circle.png" alt="user-circle">
+                        <div class="name">Miles Kerr</div>
+                        <div class="location"><img src="./content.src/icons/map-marker.png" alt="marker">Seatle</div>
+                        <div class="synopsis">
+                            <p>Developer | Engineer | Problem Solver</p>
+                            <p>Master of shadows and the Internet</p>
+                        </div>
+                        <div class="edit">
+                            <img src="./content.src/icons/gear.png" alt="cog">
+                            <a href="http://github.com">edit profile</a></div>
+                    </div>
+                    <div class="education"></div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="requests"></div>
+                <div class="connection"></div>
+            </div>
+        </main>
         <footer></footer>
     </div>
 </body>
