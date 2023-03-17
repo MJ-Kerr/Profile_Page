@@ -13,7 +13,7 @@ button {
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items:center;
 }
 
 .container1,
@@ -32,16 +32,36 @@ button {
     /* background-color:teal; */
 /* } */
 
-.col-1,
+.col-1{
+    display: flex;
+    min-height: 100px;
+    min-width: 200px;
+    margin: 10px;
+    background-color:rgb(255, 0, 255);
+    flex: 1;
+}
+
 .col-2 {
     display: flex;
     min-height: 100px;
     min-width: 200px;
-    background-color: purple;
     margin: 10px;
+    background-color: purple;
 }
 
-.col-1{
-    background-color: coral;
+.col-3 {
+    display: flex;
+    min-height: 100px;
+    min-width: 200px;
+    margin: 10px;
+    background-color: violet;
     flex: 1;
+}
+
+.col-4 {
+    display: flex;
+    min-height: 100px;
+    min-width: 200px;
+    margin: 10px;
+    background-color:rgb(113, 5, 220);
 }
