@@ -18,7 +18,7 @@ body {
 .flex {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
 }
 
@@ -52,15 +52,26 @@ main {
 
 .card {
     flex: 3;
-    background-color: yellow;
+    /* background-color: yellow; */
     min-height: 50px;
     flex-direction: column;
-    justify-content:flex-start;
 }
 
 .blueHeader {
     background-color:#17a2b8;
     min-height: 50px;
+    min-width: 426px;
+
+}
+
+.user{
+    flex: 1;
+    flex-shrink: ;
+}
+
+p {
+    margin: 10px;
+    color: blue;
 }
 
 .requests {
