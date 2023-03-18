@@ -11,9 +11,8 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 1000px;
+    width: 750px;
     flex: 1;
-
 }
 
 .flex {
@@ -34,16 +33,17 @@ ul.flex {
 }
 
 main {
-    background-color: purple;
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
 }
 
 .top {
     flex: 1;
     display: flex;
+    margin: 10px;
 }
 
 .card {
@@ -62,10 +62,10 @@ main {
 }
 
 .bottom {
-    /* background-color: yellow; */
     flex: 1;
     display: flex;
-    /* min-height: 50px; */
+    justify-content: center;
+    margin: 10px;
 }
 
 .education {
@@ -82,5 +82,5 @@ main {
 
 footer {
     background-color: salmon;
-    min-height: 50px;
+    min-height: 20px;
 }
