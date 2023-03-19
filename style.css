@@ -16,8 +16,7 @@ body {
 /* Center container horizontally and set it to take up remaining vertical space */
 .container {
     margin: 0 auto;
-    width: 750px;
-    flex: 1;
+    width: 100%;
 }
 
 /* Set flex container properties */
@@ -48,7 +47,7 @@ ul {
 
 /* Set main content container to be centered vertically */
 main {
-    height: 100%;
+    max-height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,9 +63,8 @@ main {
 /* Set card styles */
 .card {
     flex: 3;
-    min-height: 50px;
     flex-direction: column;
-    border: 2px solid gray;
+    border: 1px solid gray;
 }
 
 /* Set border styles */
@@ -82,7 +80,7 @@ main {
 
 /* Set photo styles */
 .photo {
-    height: 100px;
+    max-height: 90px;
     position: relative;
     top: 50%;
     left: 20%;
@@ -99,14 +97,13 @@ main {
 /* Set marker styles */
 .marker,
 .cog {
-    width: 10px !important;
-    height: 10px!important;
+    max-height: 1px !important;
 }
 
 /* set accept and reject buttons to the right size */
 button img {
-    width: 10px;
-    height: 10px;
+    max-width: 10px;
+    max-height: 10px;
     border-radius: 50% !important;
 }
 
