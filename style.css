@@ -59,26 +59,34 @@ main {
     border-width: 10px;
 }
 
-.blueHeader {
-    background-color:#17a2b8;
-    min-height: 50px;
-    min-width: 426px;
+.border {
+    width: 100%;
+    border: 2px solid gray;
 }
 
-.user {
-    max-height:    75px;
-    flex: 1;
+.banner {
+    background-color: #17a2b8;
 }
 
-.pinCog {
-    flex: 1;
-    max-height: 25px;
+.photo {
+    height: 100px;
+    position: relative;
+    top: 50%; left: 50%;
 }
 
+.profile {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    background-color: whitesmoke;
+}
 
-p {
-    margin: 10px;
-    color: blue;
+.marker {
+    height: 15px;
+}
+
+.cog{
+    height: 15px;
 }
 
 .requests {
