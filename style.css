@@ -1,27 +1,33 @@
+/* Reset all margin, padding and box-sizing and set font-family */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: cursive;
 }
+
+/* Set body to flex container with column layout */
 body {
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
+/* Center container horizontally and set it to take up remaining vertical space */
 .container {
     margin: 0 auto;
-    width: 750px;
-    flex: 1;
+    width: 100%;
 }
 
+/* Set flex container properties */
 .flex {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: baseline;
     gap: 20px;
 }
 
+/* Set header styles */
 header {
     background-color: black;
     color: white;
@@ -29,64 +35,86 @@ header {
     padding: 10px;
 }
 
-ul.flex {
-    list-style: none
+/* Remove default list style from flex containers */
+ul {
+    list-style: none;
 }
-button {
+
+/* Set button style */
+.headBtn {
     background-color: #17a2b8;
 }
 
+/* Set main content container to be centered vertically */
 main {
-    height: 100%;
+    max-height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
+/* Set top section to take up remaining vertical space and align items */
 .top {
-    flex: 1;
     display: flex;
     margin: 10px;
 }
 
+/* Set card styles */
 .card {
     flex: 3;
-    /* background-color: yellow; */
-    min-height: 50px;
     flex-direction: column;
-    border: gray;
-    border-width: 10px;
+    border: 1px solid gray;
 }
 
-.blueHeader {
-    background-color:#17a2b8;
-    min-height: 50px;
-    min-width: 426px;
+/* Set border styles */
+.border {
+    width: 100%;
+    border: 2px solid gray;
 }
 
-.user {
-    max-height:    75px;
-    flex: 1;
+/* Set banner styles */
+.banner {
+    background-color: #17a2b8;
 }
 
-.pinCog {
-    flex: 1;
-    max-height: 25px;
+/* Set photo styles */
+.photo {
+    max-height: 90px;
+    position: relative;
+    top: 50%;
+    left: 20%;
+}
+
+/* Set profile section styles */
+.profile {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: whitesmoke;
+}
+
+/* Set marker styles */
+.marker,
+.cog {
+    max-height: 15px !important;
+}
+
+/* set accept and reject buttons to the right size */
+.YN {
+    max-width: 10px;
+    max-height: 10px;
+    border-radius: 50px !important;
 }
 
 
-p {
-    margin: 10px;
-    color: blue;
-}
-
+/* Set connection request list styles */
 .requests {
     flex: 2;
-    background-color: antiquewhite;
     min-height: 50px;
+    list-style: none;
 }
 
+/* Set bottom section to take up remaining vertical space and align items */
 .bottom {
     flex: 1;
     display: flex;
@@ -94,19 +122,34 @@ p {
     margin: 10px;
 }
 
+/* Set education section styles */
 .education {
     flex: 3;
-    background-color: indianred;
     min-height: 50px;
+    flex-direction: column;
+    border: 2px solid gray;
 }
 
+/* Set black banner styles */
+.blackBanner {
+    background-color: gray;
+}
+
+/* Set view styles */
+.view {
+    border: 2px solid gray;
+}
+
+
+/* Set connection list styles */
 .connection {
     flex: 2;
-    background-color: darkgreen;
     min-height: 50px;
+    list-style: none;
 }
 
+/* Set footer styles */
 footer {
-    background-color: salmon;
     min-height: 20px;
+    text-align: center;
 }
