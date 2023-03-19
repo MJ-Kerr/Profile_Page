@@ -57,6 +57,7 @@ main {
 .top {
     display: flex;
     margin: 10px;
+    align-items: flex-start;
 }
 
 /* Set card styles */
@@ -138,6 +139,7 @@ main {
 /* Set view styles */
 .view {
     border: 2px solid gray;
+    
 }
 
 
