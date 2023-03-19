@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: cursive;
 }
 body {
     display: flex;
@@ -71,7 +72,7 @@ main {
 .photo {
     height: 100px;
     position: relative;
-    top: 50%; left: 50%;
+    top: 50%; left: 20%;
 }
 
 .profile {
@@ -82,17 +83,17 @@ main {
 }
 
 .marker {
-    height: 15px;
+    max-height: 15px;
 }
 
 .cog{
-    height: 15px;
+    max-height: 15px;
 }
 
 .requests {
     flex: 2;
-    background-color: antiquewhite;
     min-height: 50px;
+    list-style: none;
 }
 
 .bottom {
@@ -104,14 +105,23 @@ main {
 
 .education {
     flex: 3;
-    background-color: indianred;
     min-height: 50px;
+    flex-direction: column;
+    border: gray;
+    border: gray solid 2px
+}
+
+.blackBanner {
+    background-color: gray
+}
+.view {
+    border: gray 2px solid;
 }
 
 .connection {
     flex: 2;
-    background-color: darkgreen;
     min-height: 50px;
+    /* list-style:url(./content.src/icons/user-circle.png); */
 }
 
 footer {
