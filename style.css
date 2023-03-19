@@ -97,7 +97,7 @@ main {
 /* Set marker styles */
 .marker,
 .cog {
-    max-height: 1px !important;
+    max-height: 15px !important;
 }
 
 /* set accept and reject buttons to the right size */
