@@ -55,18 +55,26 @@ main {
     /* background-color: yellow; */
     min-height: 50px;
     flex-direction: column;
+    border: gray;
+    border-width: 10px;
 }
 
 .blueHeader {
     background-color:#17a2b8;
     min-height: 50px;
     min-width: 426px;
-
 }
 
-.user{
+.user {
+    max-height:    75px;
     flex: 1;
 }
+
+.pinCog {
+    flex: 1;
+    max-height: 25px;
+}
+
 
 p {
     margin: 10px;
