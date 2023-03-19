@@ -24,7 +24,7 @@ body {
 .flex {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: baseline;
     gap: 20px;
 }
 
@@ -37,7 +37,7 @@ header {
 }
 
 /* Remove default list style from flex containers */
-ul.flex {
+ul {
     list-style: none;
 }
 
@@ -99,14 +99,15 @@ main {
 /* Set marker styles */
 .marker,
 .cog {
-    max-height: 5px;
+    width: 10px !important;
+    height: 10px!important;
 }
 
 /* set accept and reject buttons to the right size */
 button img {
     width: 10px;
     height: 10px;
-    border-radius: 50%;
+    border-radius: 50% !important;
 }
 
 
