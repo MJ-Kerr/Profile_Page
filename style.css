@@ -84,6 +84,7 @@ main {
     position: relative;
     top: 50%;
     left: 20%;
+    align-self: flex-end !important;
 }
 
 /* Set profile section styles */
@@ -100,11 +101,17 @@ main {
     max-height: 15px !important;
 }
 
+
 /* set accept and reject buttons to the right size */
+button {
+    border-radius: 50%;
+    border: none;
+    color: white;
+}
 .YN {
     max-width: 10px;
     max-height: 10px;
-    border-radius: 50px !important;
+    border-radius: 50%;
 }
 
 
