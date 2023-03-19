@@ -55,7 +55,6 @@ main {
 
 /* Set top section to take up remaining vertical space and align items */
 .top {
-    flex: 1;
     display: flex;
     margin: 10px;
 }
