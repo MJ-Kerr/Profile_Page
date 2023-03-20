@@ -16,7 +16,7 @@ body {
 /* Center container horizontally and set it to take up remaining vertical space */
 .container {
     margin: 0 auto;
-    width: 100%;
+    width: 900px;
 }
 
 /* Set flex container properties */
@@ -33,6 +33,7 @@ header {
     color: white;
     min-height: 50px;
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 /* Remove default list style from flex containers */
@@ -45,32 +46,12 @@ ul {
     background-color: #17a2b8;
 }
 
-/* Set main content container to be centered vertically */
-main {
-    max-height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-/* Set top section to take up remaining vertical space and align items */
-.top {
-    display: flex;
-    margin: 10px;
-    align-items: flex-start;
-}
-
-/* Set card styles */
-.card {
-    flex: 3;
-    flex-direction: column;
-    border: 1px solid gray;
-}
 
 /* Set border styles */
 .border {
     width: 100%;
     border: 2px solid gray;
+    margin-bottom: 20px;
 }
 
 /* Set banner styles */
@@ -82,9 +63,8 @@ main {
 .photo {
     max-height: 90px;
     position: relative;
-    top: 50%;
-    left: 20%;
-    align-self: flex-end !important;
+    top: 50px;
+    left: 20px;
 }
 
 /* Set profile section styles */
@@ -93,6 +73,7 @@ main {
     flex-direction: column;
     gap: 10px;
     background-color: whitesmoke;
+    padding: 50px 20px 20px;
 }
 
 /* Set marker styles */
@@ -120,14 +101,16 @@ button {
     flex: 2;
     min-height: 50px;
     list-style: none;
+    
 }
 
 /* Set bottom section to take up remaining vertical space and align items */
-.bottom {
+.left {
+    flex: 2;
+}
+.right{
     flex: 1;
-    display: flex;
-    justify-content: center;
-    margin: 10px;
+    align-self: flex-start;
 }
 
 /* Set education section styles */
@@ -145,8 +128,8 @@ button {
 
 /* Set view styles */
 .view {
-    border: 2px solid gray;
-    
+    border-top: 2px solid gray;
+    display: block;
 }
 
 
